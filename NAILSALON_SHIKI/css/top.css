@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: navy;
+  color: white;
+  height: 200vh;
+  background-image: url(../image/topimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.site-menu ul {
+  display: flex;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.site-menu ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-menu ul li :hover {
+  background-color: black;
+  padding: 5px 3px;
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+.toggle-menu-button {
+  display: none;
+}
+
+.header-inner {
+  max-width: 1200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(99, 99, 185);
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.item01 {
+  width: 50%;
+  height: auto;
+  padding: 5% 10%;
+  text-align: right;
+}
+
+.item01 img {
+  width: 200px;
+  height: auto;
+}
+
+.item02 {
+  padding: 5% 10%;
+}
+
+.tag,
+.line {
+  width: 350px;
+  height: 90px;
+}
+
+.footer-tel {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.footer-access {
+  margin-top: 10px;
+}
+
+.line {
+  margin-top: 28px;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: bold;
+
+  text-align: center;
+  background-color: rgb(99, 99, 185);
+}
+
+/* ここからTOP */
+
+.first-viewtext {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+
+.concept,
+.menu,
+.contact {
+  width: auto;
+  height: 170px;
+  display: flex;
+  text-align: center;
+  margin: 5% 30%;
+}
+
+.concept:hover,
+.menu:hover,
+.contact:hover {
+  width: 700px;
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+.news {
+  background-color: rgb(99, 99, 185);
+  padding: 5%;
+}
+
+h3 {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 5%;
+}
+
+.topics {
+  list-style: none;
+}
+
+.topics li {
+  margin: 0 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 5px;
+  padding-bottom: 8px;
+}
+
+.topics li time {
+  margin-right: 20%;
+  margin-left: 5%;
+}
+
+.view {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 80%;
+  margin-top: 50px;
+}
+
+strong {
+  margin-left: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  display: inline-block;
+  min-width: 100px;
+  line-height: 100px;
+  border-radius: 50px;
+}
+
+strong:hover {
+  background-color: cadetblue;
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+
+.map {
+  width: 930px;
+  max-width: 90%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
