@@ -128,8 +128,7 @@ footer {
 .item01 img:hover,
 .insta:hover,
 .X:hover,
-.line:hover,
-.recommended:hover{
+.line:hover {
   transform: scale(1.05);
   transition-duration: 0.2s;
 }
@@ -183,6 +182,25 @@ h2 {
   color: black;
 }
 
+.rank {
+  text-align: center;
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 84px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  letter-spacing: 20px;
+  color: black;
+}
+
+.rank:hover,
+.recommended:hover {
+  transition: 1.5s;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
 main h2 {
   animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
@@ -207,15 +225,7 @@ main h2 {
   width: auto;
 }
 
-/* *,
-body,
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style: none;
-} */
+
 
 .review a {
   background-color: black;
@@ -243,17 +253,7 @@ li {
   transition-duration: 0.2s;
 }
 
-/* .ranking {
-  display: flex;
-  padding: 0 60px 60px;
-  overflow-x: scroll;
-}
 
-
-
-.ranking li:first-child {
-  margin-left: 0;
-} */
 
 .ranking li {
   flex-shrink: 0;

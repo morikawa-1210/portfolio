@@ -39,34 +39,6 @@ $(function(){
 
  
 
-//  window.addEventListener('load', function () {
-// 	const ranking = document.querySelector('.ranking ul'); // ul要素
-   
-// 	const items = Array.from(ranking.children);             // 子要素
-// 	const speedSeconds = 30;                                // スクロール1回にかかる秒数
-// 	const direction = 'left';                               // 'left' または 'right'
-
-// 	// 無限スクロール用に複製
-// 	items.forEach(item => ranking.appendChild(item.cloneNode(true)));
-
-// 	let rankingWidth = ranking.scrollWidth / 2;
-// 	let pos = direction === 'left' ? 0 : -rankingWidth;
-// 	const pixelsPerFrame = rankingWidth / (speedSeconds * 60);
-
-// 	function animate() {
-// 		pos += direction === 'left' ? -pixelsPerFrame : pixelsPerFrame;
-
-// 		// 無限ループ
-// 		if (pos <= -rankingWidth) pos += rankingWidth;
-// 		if (pos >= 0) pos -= rankingWidth;
-
-// 		ranking.style.transform = `translateX(${pos}px)`;
-// 		requestAnimationFrame(animate);
-// 	}
-
-// 	animate();
-// });
-
 window.addEventListener('load', function () {
 	const ranking = document.querySelectorAll('.ranking');
 
